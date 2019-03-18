@@ -14,6 +14,6 @@ github_username:  https://github.com/RishabhGupta34
 mobile: +91-9654815436
 # Google-analytics
 google-analytics:
-  id: ""
+  id: UA-136470922-1
 
 exclude: ['package.json', 'src' , 'node_modules']
