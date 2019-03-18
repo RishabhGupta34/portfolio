@@ -1,4 +1,4 @@
-<!-- Google Analytics -->
+<!-- Google Analytics --><!-- 
 {% if site.google-analytics %}
 <script>
 var dnt = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
@@ -10,5 +10,15 @@ if (dnt != "1" && dnt != "yes") {
 ga('create', '{{ site.google-analytics.id }}', 'auto');
 ga('send', 'pageview');
 }
+</script> -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136470922-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-136470922-1');
 </script>
-{% endif %}
+<!-- 
+{% endif %} -->
