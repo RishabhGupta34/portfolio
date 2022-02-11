@@ -1,4 +1,11 @@
 /* sweetScroll load */
+/* affix the navbar after scroll below header */
+$('#nav').affix({
+  offset: {
+    top: $('#services').offset().top
+  }
+});
+
 document.addEventListener("DOMContentLoaded", function () {
   new SweetScroll({/* some options */});
 
@@ -6,23 +13,23 @@ document.addEventListener("DOMContentLoaded", function () {
   particlesJS('particles-js', {
     "particles": {
       "number": {
-        "value": 30,
+        "value": 142,
         "density": {
           "enable": true,
           "value_area": 800
         }
       },
       "color": {
-        "value": "#ffffff"
+        "value": "#b3e5fc"
       },
       "shape": {
-        "type": "polygon",
+        "type": "circle",
         "stroke": {
           "width": 0,
           "color": "#000000"
         },
         "polygon": {
-          "nb_sides": 5
+          "nb_sides": 3
         },
         "image": {
           "src": "img/github.svg",
@@ -45,7 +52,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "random": true,
         "anim": {
           "enable": false,
-          "speed": 19.18081918081918,
+          "speed": 40,
           "size_min": 0.1,
           "sync": false
         }
@@ -53,25 +60,24 @@ document.addEventListener("DOMContentLoaded", function () {
       "line_linked": {
         "enable": true,
         "distance": 150,
-        "color": "#ffffff",
-        "opacity": 0.4,
+        "color": "#b3e5fc",
+        "opacity": 0.35253020542896546,
         "width": 1
       },
       "move": {
         "enable": true,
-        "speed": 4,
+        "speed": 7,
         "direction": "none",
         "random": true,
         "straight": false,
-        "out_mode": "out",
+        "out_mode": "bounce",
         "bounce": false,
         "attract": {
-          "enable": false,
+          "enable": true,
           "rotateX": 600,
           "rotateY": 1200
         }
-      },
-      nb: 80
+      }
     },
     "interactivity": {
       "detect_on": "canvas",
