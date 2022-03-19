@@ -18,7 +18,7 @@
   text-align: center;
   color:#FFF;
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   margin: 0 auto;
   -webkit-transform: translate(-50%, -50%);
@@ -30,7 +30,7 @@
     color: #FFF;
     @media only screen and (min-width:$cut){
       margin: 0;
-      font-size: 20px;
+      font-size: 30px;
     }
   }
   .site-description {

@@ -1,17 +1,15 @@
 # Site settings
-title: Portfolio 
+title: Rishabh Gupta
 description: My Portfolio
 # baseurl: "/particle" # the subpath of your site, e.g. /blog
 # url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
-username: Rishabh Gupta
-user_description: I am a 4th year Computer Science student at Thapar Institute of Engineering and Technology, Patiala. I love coding, learning new technologies related to computer science, playing video games, watching TV series and swimming.
+username: Hi, I am Rishabh Gupta
+user_description: I am a Software Engineer II at Walmart. I love coding, learning new technologies related to computer science, playing video games and swimming.
 email: rish.gupta34@gmail.com
-linkedin_username: https://www.linkedin.com/in/rishabh-gupta34/
+linkedin_username: https://www.linkedin.com/in/rishabhgupta34/
 github_username:  https://github.com/RishabhGupta34
-# gplus_username:  lorem_ipsum
-mobile: +91-9654815436
 # Google-analytics
 google-analytics:
   id: UA-136470922-1
