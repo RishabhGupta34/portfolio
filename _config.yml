@@ -1,14 +1,17 @@
-url: http://kirbyt.github.io
-baseurl: /timeline-jekyll-theme
+# Site settings
+title: Rishabh Gupta
+description: My Portfolio
+# baseurl: "/particle" # the subpath of your site, e.g. /blog
+# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
-# Site Settings
-title: Timeline
-description: "Timeline is multipurpose, single page Jekyll theme that includes a timeline section."
-keywords: "jekyll, theme"
-google-tracking-id:
+# User settings
+username: Hi, I am Rishabh Gupta
+user_description: I am a Software Engineer II at Walmart. I love coding, learning new technologies related to computer science, playing video games and swimming.
+email: rish.gupta34@gmail.com
+linkedin_username: https://www.linkedin.com/in/rishabhgupta34/
+github_username:  https://github.com/RishabhGupta34
+# Google-analytics
+google-analytics:
+  id: UA-136470922-1
 
-# Career Settings
-# Default career thumbnail image.
-career-img: "img/timeline/default.jpg"
-
-exclude: ["Rakefile", "LICENSE", "readme.markdown"]
+exclude: ['package.json', 'src' , 'node_modules']
